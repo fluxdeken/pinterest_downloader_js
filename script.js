@@ -87,7 +87,7 @@
       URL.revokeObjectURL(blobUrl);
       downloaded++;
       
-      await new Promise(r => setTimeout(r, 500));
+      await new Promise(r => setTimeout(r, 800));
       
     } catch(err) {
       console.error(`❌ Ошибка: ${fileName} - ${err.message}`);
